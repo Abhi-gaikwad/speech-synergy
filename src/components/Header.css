@@ -1,0 +1,97 @@
+/* src/components/Header.css */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.sidebar-logo {
+  max-height: 50px; /* Adjust as needed */
+}
+
+.login-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  color: #0056b3; /* Darken the color on hover */
+}
+
+.login-btn i {
+  margin-right: 5px;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #333; /* Dark background for the sidebar */
+  color: #fff; /* White text color */
+}
+
+.sidebar-logo {
+  width: 80px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto 10px; /* Center horizontally and add margin below */
+}
+
+.sidebar-brand {
+  text-align: center;
+  margin-bottom: 20px; /* Space below the brand name */
+}
+
+.sidebar-brand h2 {
+  font-size: 1.5rem; /* Adjust font size as needed */
+  color: #6D31ED; /* White text color */
+  margin: 0; /* Remove default margin */
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  padding: 10px 15px;
+  color: #fff; /* White text color */
+  background-color: #6D31ED; /* Faint purple background */
+  border-radius: 4px;
+  text-decoration: none; /* Remove underline from links */
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin-bottom: 10px;
+}
+
+.nav-link i {
+  margin-right: 10px; /* Space between icon and text */
+  font-size: 1.2rem; /* Adjust icon size */
+}
+
+.nav-link:hover {
+  background-color: #5a1dbf; /* Darker purple for hover effect */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Glow effect */
+}
+
+.login-icon {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
